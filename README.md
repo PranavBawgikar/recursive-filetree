@@ -1,9 +1,11 @@
-# Recursive Filetree
-An example of how to use a recursive React component to render a treenode data structure of arbitrary depth.
+# recursive filetree
+an example of how to use a recursive react component to render a treenode data structure of arbitrary depth.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+recursion works great for any sort of tree-like data structure something like file system with directories and files. even the react tree follows this pattern. recursion is a pretty cool because it works with lower function calls.
 
-## Getting Started
+this is a [next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## getting Started
 
 First, run the development server:
 
