@@ -1,11 +1,17 @@
-# Recursive Filetree
-An example of how to use a recursive React component to render a treenode data structure of arbitrary depth.
+# recursive filetree
+an example of how to use a recursive react component to render a treenode data structure of arbitrary depth.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![image](https://github.com/user-attachments/assets/5adae8e6-b058-43e9-b6f5-f001d2072239)
 
-## Getting Started
+recursion works great for any sort of tree-like data structure something like a file system with directories and files. even the react tree follows this pattern. recursion is pretty cool because it works with lower function calls.
 
-First, run the development server:
+we render a separate instance folder for each folder in our data structure, and so we have all these instances of the folder component just by the nature of recursion, and this usually falls out of the design of your code when you use recursion.
+
+this is a [next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## getting Started
+
+first, run the development server:
 
 ```bash
 npm run dev
@@ -17,18 +23,18 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+you can start editing the page by modifying `app/page.tsx`. the page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+this project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom google font.
 
-## Learn More
+## learn more
 
-To learn more about Next.js, take a look at the following resources:
+to learn more about next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [next.js documentation](https://nextjs.org/docs) - learn about next.js features and API.
+- [learn next.js](https://nextjs.org/learn) - an interactive next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
